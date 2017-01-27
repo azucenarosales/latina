@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Latina</title>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/scripts.js"></script>      
+</head>
+<body>
+
+  <div class="main-container">
+  <!-- NavBar  -->
+  <div class="naxbar-fixed">
+    <nav>   
+        <div class="brand-logo center">
+            <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Incidentes</a></li>
+                <li><a href="#">Testimoniales</a></li>
+                <li><a href="#">Consulta</a></li>  
+            </ul>
+        </div>
+    </nav>
+  </div>
+    <div class="image-home">
+      <div class="banner-home">
+        <img   width="100%" src="img/home-img.png">
+        
+      </div>
+      <div class="blue-area">
+        <p>25 años de experiencia.</p>
+      </div>
+    </div>    
+    <div class="center">      
+      <div class="nosotros">
+        <h2>Nosotros</h1>
+      </div>
+      <div class="mision">
+        <h2>Mision</h1>
+      </div>      
+      <div class="divider"></div>
+      <div class="casos-reales">
+        <h2>Casos Reales</h1>
+      </div>
+    </div>
+      <!-- Slider -->
+    <div class="carousel carousel-slider center" data-indicators="true">
+      <div class="carousel-fixed-item center">
+        <a class="btn waves-effect white grey-text darken-text-2" id="call">Llama</a>
+        <p class="waves-effect black-text darken-text-2" id="prev">prev</p>
+        <p class="waves-effect black-text darken-text-2" id="next">next</p>
+      </div>
+      <div class="carousel-item red white-text" href="#one!">
+        <h2>First Panel</h2>
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <h2>Second Panel</h2>
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+    </div>
+    </div>
+    <div class="consulta-sin-costo">
+      <div class="left">
+        <h2>Consulta sin costo</h2>
+        <form action="#">
+          <input type="text" name="name" id="name">
+          <label for="name">Nombre</label>          
+          <input type="text" name="email" id="email">
+          <label for="email">Correo</label>
+          <input type="text" name="tel" id="tel">          
+          <label for="tel">Telefono1</label>          
+        </form>
+      </div>      
+      <div class="right">
+        <h2>800 573 0842</h2>
+      </div>     
+    </div>
+    <footer></footer> 
+  </div>    
+        
+</div>
+</body>
+</html>
