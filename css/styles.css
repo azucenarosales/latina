@@ -182,7 +182,7 @@ input:not([type]), input[type="text"], input[type="password"], input[type="email
     font-size: 20pt;
 }
 
-.consulta-sin-costo {
+.consulta-sin-costo, .nosotros, .mision {
     margin: 50px;
 }
 
